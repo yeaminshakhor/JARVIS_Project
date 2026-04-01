@@ -1,0 +1,52 @@
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:                daemon=True,
+./.venv/lib64/python3.13/site-packages/rich/progress.py:        super().__init__(daemon=True)
+./.venv/lib64/python3.13/site-packages/rich/live.py:        super().__init__(daemon=True)
+./.venv/lib64/python3.13/site-packages/anyio/from_thread.py:    thread = Thread(target=run_blocking_portal, daemon=True, name=name)
+./.venv/lib64/python3.13/site-packages/torch/utils/data/dataloader.py:    #      We set all workers and `pin_memory_thread` to have `daemon=True`.
+./.venv/lib64/python3.13/site-packages/torch/distributed/debug/_frontend.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/distributed/debug/__init__.py:            target=main, args=(port,), daemon=True
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:                daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/utils.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/_experimental/checkpoint_process.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/_async_process_executor.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:            target=self._read_thread, name="InductorSubproc", daemon=True
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/timer.py:                    target=self.check, daemon=True, name="subproc_worker_timer"
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/utils.py:    _watchdog_thread = Thread(target=run, daemon=True)
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            daemon=True,
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:                daemon=True,  # so that child processes will exit if parent decides to terminate
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/progress.py:        super().__init__(daemon=True)
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/live.py:        super().__init__(daemon=True)
+./.venv/lib64/python3.13/site-packages/huggingface_hub/utils/_telemetry.py:            _TELEMETRY_THREAD = Thread(target=_telemetry_worker, daemon=True)
+./.venv/lib64/python3.13/site-packages/huggingface_hub/_commit_scheduler.py:        self._scheduler_thread = Thread(target=self._run_scheduler, daemon=True)
+./.venv/lib64/python3.13/site-packages/grpc/_simple_stubs.py:            target=ChannelCache._perform_evictions, daemon=True
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:                daemon=True,
+./.venv/lib/python3.13/site-packages/rich/progress.py:        super().__init__(daemon=True)
+./.venv/lib/python3.13/site-packages/rich/live.py:        super().__init__(daemon=True)
+./.venv/lib/python3.13/site-packages/anyio/from_thread.py:    thread = Thread(target=run_blocking_portal, daemon=True, name=name)
+./.venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:    #      We set all workers and `pin_memory_thread` to have `daemon=True`.
+./.venv/lib/python3.13/site-packages/torch/distributed/debug/_frontend.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/torch/distributed/debug/__init__.py:            target=main, args=(port,), daemon=True
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:                daemon=True,
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/utils.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/_experimental/checkpoint_process.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/_async_process_executor.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:            target=self._read_thread, name="InductorSubproc", daemon=True
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/timer.py:                    target=self.check, daemon=True, name="subproc_worker_timer"
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/utils.py:    _watchdog_thread = Thread(target=run, daemon=True)
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            daemon=True,
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:                daemon=True,  # so that child processes will exit if parent decides to terminate
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py:        super().__init__(daemon=True)
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/live.py:        super().__init__(daemon=True)
+./.venv/lib/python3.13/site-packages/huggingface_hub/utils/_telemetry.py:            _TELEMETRY_THREAD = Thread(target=_telemetry_worker, daemon=True)
+./.venv/lib/python3.13/site-packages/huggingface_hub/_commit_scheduler.py:        self._scheduler_thread = Thread(target=self._run_scheduler, daemon=True)
+./.venv/lib/python3.13/site-packages/grpc/_simple_stubs.py:            target=ChannelCache._perform_evictions, daemon=True
+./gui/main_window.py:            self._auth_setup_thread = threading.Thread(target=_setup_worker, daemon=True)
+./gui/main_window.py:            self._auth_setup_thread = threading.Thread(target=_face_add_worker, daemon=True)
+./gui/main_window.py:        worker = threading.Thread(target=self._capture_stt_once, daemon=True)
+./core/realtime_conversation.py:        self._listener_thread = threading.Thread(target=self._listener_loop, daemon=True)
+./core/realtime_conversation.py:        self._processor_thread = threading.Thread(target=self._processor_loop, daemon=True)
+./core/realtime_conversation.py:        self._speaker_thread = threading.Thread(target=self._speaker_loop, daemon=True)
+./core/stt.py:        self._continuous_thread = threading.Thread(target=self._continuous_loop, daemon=True)
+./core/tts.py:        self._stream_thread = threading.Thread(target=self._stream_worker_loop, daemon=True)

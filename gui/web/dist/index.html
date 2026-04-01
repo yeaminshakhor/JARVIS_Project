@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JARVIS HUD Interface</title>
+    <script type="module" crossorigin src="/assets/index-BtN4zWXb.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Tf2adqWx.css">
+  </head>
+  <body>
+    <div class="hud-bg"></div>
+    <div class="noise"></div>
+    <div class="scanline"></div>
+
+    <main class="hud" id="hud" data-state="online">
+      <header class="top-bar panel-line">
+        <article class="profile-card panel-line">
+          <div class="avatar" aria-hidden="true">YS</div>
+          <div class="profile-meta">
+            <h1>Yeamin Shakhor</h1>
+            <p>PROFILE ID</p>
+          </div>
+        </article>
+
+        <nav class="app-shortcuts" aria-label="Top app shortcuts">
+          <button class="pill-btn">Photoshop</button>
+          <button class="pill-btn">Premiere</button>
+          <button class="pill-btn">Terminal</button>
+          <button class="pill-btn">VS Code</button>
+          <button class="pill-btn">Discord</button>
+          <button class="pill-btn">LibreOffice</button>
+        </nav>
+
+        <div class="date-box panel-line">
+          <span class="date-day">28</span>
+          <span class="date-month">FEB</span>
+        </div>
+      </header>
+
+      <section class="left-side panel-line" aria-label="Left launcher and RAM monitor">
+        <div class="bridge-mark">BRIDGE CONTROL</div>
+
+        <div class="left-buttons">
+          <button class="edge-btn">Chrome</button>
+          <button class="edge-btn">Steam</button>
+          <button class="edge-btn">Spotify</button>
+          <button class="edge-btn">Epic Games</button>
+          <button class="edge-btn">Firefox</button>
+        </div>
+
+        <div class="ram-card panel-line">
+          <h3>RAM USAGE</h3>
+          <div class="ram-meter">
+            <div class="ram-fill" id="ramFill"></div>
+            <div class="ram-ticks">
+              <span>10</span>
+              <span>20</span>
+              <span>30</span>
+              <span>40</span>
+              <span>50</span>
+              <span>60</span>
+              <span>70</span>
+              <span>80</span>
+              <span>90</span>
+              <span>100</span>
+            </div>
+          </div>
+          <strong id="ramValue">24%</strong>
+        </div>
+      </section>
+
+      <section class="center-stage panel-line" aria-label="Core reactor panel">
+        <div class="center-header panel-line">
+          <h2>CORE REACTOR</h2>
+          <p>Bridge Command v1.0</p>
+        </div>
+
+        <div class="center-body">
+          <div class="reactor-wrap" aria-label="JARVIS circular system display">
+            <div class="status-text status-top">SIGNAL</div>
+            <div class="status-text status-left">WIFI</div>
+
+            <div class="ring-layer outer-shell spin-slow"></div>
+            <div class="ring-layer outer-track spin-reverse"></div>
+            <div class="ring-layer cyan-arc spin-fast"></div>
+            <div class="ring-layer yellow-arc spin-reverse-fast"></div>
+            <div class="ring-layer notch-ring spin-slow"></div>
+            <div class="ring-layer tick-ring"></div>
+            <div class="ring-layer inner-grid spin-reverse"></div>
+            <div class="ring-layer inner-glow pulse"></div>
+
+            <div class="core">
+              <div class="core-triangle"></div>
+            </div>
+          </div>
+
+          <div class="net-stats panel-line" aria-label="Live network stats">
+            <p><span>WiFi</span><strong id="wifiValue">Online</strong></p>
+            <p><span>Download</span><strong id="downValue">-- Mbps</strong></p>
+            <p><span>Upload</span><strong id="upValue">-- Mbps</strong></p>
+          </div>
+        </div>
+      </section>
+
+      <aside class="right-side panel-line" aria-label="Right module controls">
+        <section class="right-module panel-line" aria-label="Secondary launcher widget">
+          <div class="mini-orbital" id="orbitalModule">
+            <div class="mini-ring base"></div>
+            <div class="mini-ring orange-slice spin-slow"></div>
+            <div class="mini-ring thin-markers spin-reverse"></div>
+            <div class="mini-ring inner-sweep spin-fast"></div>
+            <div class="mini-ring core-ring pulse"></div>
+            <div class="center-dot"></div>
+            <div class="center-pin"></div>
+          </div>
+
+          <ul class="social-links">
+            <li>Google Reader</li>
+            <li>deviantART</li>
+            <li>YouTube</li>
+            <li>Tumblr</li>
+            <li>Facebook</li>
+          </ul>
+
+          <div class="quick-links right-quick-links">
+            <button class="edge-btn edge-btn-small">Downloads</button>
+            <button class="edge-btn edge-btn-small">Documents</button>
+            <button class="edge-btn edge-btn-small">Dropbox</button>
+            <button class="edge-btn edge-btn-small">Pictures</button>
+            <button class="edge-btn edge-btn-small">Music</button>
+            <button class="edge-btn edge-btn-small">Videos</button>
+            <button class="edge-btn edge-btn-small">Rainmeter</button>
+          </div>
+        </section>
+
+        <div class="clock-box panel-line" id="clockValue">20:13</div>
+        <div class="side-meter panel-line" aria-hidden="true">
+          <div class="side-meter-fill"></div>
+        </div>
+      </aside>
+
+      <footer class="hud-footer">
+        <span id="systemState" class="chip online">SYSTEM ONLINE</span>
+      </footer>
+    </main>
+
+  </body>
+</html>

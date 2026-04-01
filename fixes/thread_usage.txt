@@ -1,0 +1,941 @@
+./.venv/lib64/python3.13/site-packages/pygments/scanner.py:        self.start_pos = m.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/textfmts.py:        offset = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/crystal.py:                            yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/crystal.py:                        yield match.start(), String.Delimiter, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/crystal.py:                        yield amatch.start(), Error, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/_mysql_builtins.py:        data = data[:m.start()] + new_block + data[m.end():]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/_postgres_builtins.py:        data = data[:m.start()] + new_block + data[m.end():]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Function, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Exception, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Heading, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Operator, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Type, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable.Instance, word  # lit-word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Label, word  # issue
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Decorator, word  # file
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Function, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin.Pseudo, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Exception, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Operator, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Type, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable.Instance, word  # lit-word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Label, word  # issue
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Decorator, word  # file
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word  # get-word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable, word
+./.venv/lib64/python3.13/site-packages/pygments/lexers/dylan.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/perl.py:            yield match.start(), token_class, text[match.start():end_pos + n_chars]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/php.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/lisp.py:        yield match.start(), token_type, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/tnt.py:        self.cur.append((match.start(), Number.Integer, match.group(0)))
+./.venv/lib64/python3.13/site-packages/pygments/lexers/ruby.py:                            yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/ruby.py:                        yield match.start(), String.Delimiter, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/ruby.py:                        yield amatch.start(), Error, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/ruby.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/csound.py:        yield match.start(), Name.Function, opcode
+./.venv/lib64/python3.13/site-packages/pygments/lexers/csound.py:            yield match.start(), Name.Builtin, name
+./.venv/lib64/python3.13/site-packages/pygments/lexers/csound.py:            yield match.start(), Name.Function, name
+./.venv/lib64/python3.13/site-packages/pygments/lexers/csound.py:                yield match.start(), Name, name
+./.venv/lib64/python3.13/site-packages/pygments/lexers/_csound_builtins.py:#   opcodes = output[re.search(r'^\$', output, re.M).end() : re.search(r'^\d+ opcodes\$', output, re.M).start()].split()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/_csound_builtins.py:#   all_opcodes = output[re.search(r'^\$', output, re.M).end() : re.search(r'^\d+ opcodes\$', output, re.M).start()].split()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/matlab.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/css.py:    yield match.start(), Whitespace, indentation
+./.venv/lib64/python3.13/site-packages/pygments/lexers/css.py:        yield match.start(), token, match.group(0)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/bibtex.py:        yield match.start(), Punctuation, opening_brace
+./.venv/lib64/python3.13/site-packages/pygments/lexers/bibtex.py:            yield match.start(), Error, closing_brace
+./.venv/lib64/python3.13/site-packages/pygments/lexers/bibtex.py:            yield match.start(), Punctuation, closing_brace
+./.venv/lib64/python3.13/site-packages/pygments/lexers/markup.py:            yield match.start() + index + 1, Text, content
+./.venv/lib64/python3.13/site-packages/pygments/lexers/markup.py:            yield match.start() + index + 1, Text, content
+./.venv/lib64/python3.13/site-packages/pygments/lexers/mime.py:            yield match.start(), Comment, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/mime.py:        pos_body_start = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/mime.py:            yield pos_body_start, Text, entire_body[:m.start()]
+./.venv/lib64/python3.13/site-packages/pygments/lexers/mime.py:            lpos_end = m.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Operator, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:                yield match.start(), Punctuation, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Attribute, match.group(1)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/shell.py:                    pos = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/shell.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start()+len(text), token_class.Error, extra
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                    yield match.start(), indent_token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), indent_token_class, indentation
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield (match.start()+context.block_scalar_indent,
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/asm.py:        yield match.start(), klass, ident
+./.venv/lib64/python3.13/site-packages/pygments/lexers/configs.py:                    yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/configs.py:                yield match.start(), String.Delimiter, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/configs.py:                yield amatch.start(), Error, amatch.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), Generic.Traceback, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), token, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/r.py:                yield match.start(), Generic.Output, line
+./.venv/lib64/python3.13/site-packages/pygments/lexers/sql.py:            lexer.text[max(0, match.start()-100):match.start()]))
+./.venv/lib64/python3.13/site-packages/pygments/lexers/sql.py:                lexer.text[max(0, match.start()-25):match.start()]))
+./.venv/lib64/python3.13/site-packages/pygments/lexers/sql.py:                    yield (match.start(), Generic.Traceback, line)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/sql.py:                    yield (match.start(), Generic.Output, line)
+./.venv/lib64/python3.13/site-packages/pygments/lexers/urbi.py:        yield match.start(), String, text_before_blob
+./.venv/lib64/python3.13/site-packages/pygments/lexers/urbi.py:            yield match.start(), String, result
+./.venv/lib64/python3.13/site-packages/pygments/lexers/urbi.py:        yield match.start(), String.Escape, blob_text
+./.venv/lib64/python3.13/site-packages/pygments/lexers/haxe.py:        yield match.start(), Comment.Preproc, '#' + proc
+./.venv/lib64/python3.13/site-packages/pygments/lexers/dsls.py:            s = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/dsls.py:                yield s + match.start(), String.Escape, match.group()
+./.venv/lib64/python3.13/site-packages/pygments/lexers/slash.py:        yield match.start(), String.Interpol, '}'
+./.venv/lib64/python3.13/site-packages/pygments/lexer.py:            s = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/lexer.py:            s = match.start()
+./.venv/lib64/python3.13/site-packages/pygments/filters/__init__.py:        start, end = match.start(), match.end()
+./.venv/lib64/python3.13/site-packages/portalocker/redis.py:                self.thread.start()
+./.venv/lib64/python3.13/site-packages/fastavro/_write_py.py:    encoder.write_array_start()
+./.venv/lib64/python3.13/site-packages/fastavro/_write_py.py:    encoder.write_map_start()
+./.venv/lib64/python3.13/site-packages/fastavro/io/json_encoder.py:            self.write_object_start()
+./.venv/lib64/python3.13/site-packages/fastavro/io/json_encoder.py:        self.write_object_start()
+./.venv/lib64/python3.13/site-packages/fastavro/io/json_encoder.py:            self.write_object_start()
+./.venv/lib64/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_array_start()
+./.venv/lib64/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_array_start()
+./.venv/lib64/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_map_start()
+./.venv/lib64/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_map_start()
+./.venv/lib64/python3.13/site-packages/websockets/sync/server.py:            thread = threading.Thread(target=self.handler, args=(sock, addr))
+./.venv/lib64/python3.13/site-packages/websockets/sync/server.py:            thread.start()
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:        self.keepalive_thread: threading.Thread | None = None
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:        self.recv_events_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:        self.recv_events_thread.start()
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:            self.keepalive_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/websockets/sync/connection.py:            self.keepalive_thread.start()
+./.venv/lib64/python3.13/site-packages/PIL/PdfParser.py:            m = self.re_trailer_end.search(self.buf, m.start() + 16)
+./.venv/lib64/python3.13/site-packages/PIL/PdfParser.py:            result.extend(data[offset : m.start()])
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/managed_window.py:        self.Thread.start()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_mode_base.py:        Thread(target=self._calculate_cverts).start()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_mode_base.py:        Thread(target=self._calculate_all).start()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/experimental_lambdify.py:            start = first_par.start()
+./.venv/lib64/python3.13/site-packages/sympy/parsing/mathematica.py:            if m.start() != 0 or end != len(fm):
+./.venv/lib64/python3.13/site-packages/sympy/parsing/mathematica.py:            bgn = m.start()
+./.venv/lib64/python3.13/site-packages/sympy/parsing/mathematica.py:            xbgn = m.start()
+./.venv/lib64/python3.13/site-packages/sympy/parsing/mathematica.py:            string_end = string_start + match_end.start() + 1
+./.venv/lib64/python3.13/site-packages/sympy/parsing/mathematica.py:            position = match.start()
+./.venv/lib64/python3.13/site-packages/sympy/tensor/array/expressions/from_array_to_matrix.py:    editor.track_permutation_start()
+./.venv/lib64/python3.13/site-packages/sympy/tensor/array/expressions/from_array_to_matrix.py:    editor.track_permutation_start()
+./.venv/lib64/python3.13/site-packages/sympy/testing/runtests.py:        self._reporter.start()
+./.venv/lib64/python3.13/site-packages/sympy/core/tests/test_symbol.py:    thread = threading.Thread(target=thread1)
+./.venv/lib64/python3.13/site-packages/sympy/core/tests/test_symbol.py:    thread.start()
+./.venv/lib64/python3.13/site-packages/sympy/core/parameters.py:    >>> thread = threading.Thread(target=f)
+./.venv/lib64/python3.13/site-packages/sympy/core/parameters.py:    >>> thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/testing_utils.py:        self.mock = self.patcher.start()
+./.venv/lib64/python3.13/site-packages/transformers/testing_utils.py:    process.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer_jit_checkpoint.py:        threading.Timer(self.kill_wait, self._enable_checkpoint).start()
+./.venv/lib64/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        self._generation_thread = threading.Thread(target=self._run_generation_loop)
+./.venv/lib64/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        self._generation_thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        manager.start()
+./.venv/lib64/python3.13/site-packages/transformers/generation/streamers.py:        >>> thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/generation/streamers.py:        ...     thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/utils/chat_template_utils.py:            desc = enum_choices.string[: enum_choices.start()].strip()
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:        remainder_docstring = docstring[match.start() :]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:        docstring = docstring[: match.start()]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:        docstring_intro = docstring[: args_match.start()]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:            return_docstring = func_documentation[match_start.start() : match_end.start()]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:            func_documentation = func_documentation[match_end.start() :]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:            return_docstring = func_documentation[match_start.start() :]
+./.venv/lib64/python3.13/site-packages/transformers/utils/auto_docstring.py:        example_docstring = func_documentation[match.start() :]
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:        self._timer.start()
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:        self._timer.start()
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:        self._thread = threading.Thread(target=_run, name="uvicorn-thread", daemon=False)
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:        self._thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:            self.running_continuous_batching_manager.start()
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:                thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/cli/serve.py:                thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer_utils.py:    self._memory_tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/trainer_utils.py:        peak_monitor_thread = threading.Thread(target=self.peak_monitor_func)
+./.venv/lib64/python3.13/site-packages/transformers/trainer_utils.py:        peak_monitor_thread.start()
+./.venv/lib64/python3.13/site-packages/transformers/integrations/integration_utils.py:            self.tracker.start()
+./.venv/lib64/python3.13/site-packages/transformers/models/qwen3_omni_moe/modular_qwen3_omni_moe.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib64/python3.13/site-packages/transformers/models/qwen3_omni_moe/processing_qwen3_omni_moe.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib64/python3.13/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib64/python3.13/site-packages/transformers/models/tapas/tokenization_tapas.py:        span_text = text[match.start() : match.end()]
+./.venv/lib64/python3.13/site-packages/transformers/models/gemma3/processing_gemma3.py:                image_indexes = [m.start() for m in re.finditer(self.boi_token, prompt)]
+./.venv/lib64/python3.13/site-packages/transformers/models/donut/processing_donut.py:            start_token = tokens[potential_start.start() :]
+./.venv/lib64/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            return m.start() if m else -1
+./.venv/lib64/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            completion = completion[: prints[1].start()]
+./.venv/lib64/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            completion = completion[: defs[1].start()]
+./.venv/lib64/python3.13/site-packages/transformers/modeling_utils.py:                        ).start()
+./.venv/lib64/python3.13/site-packages/numpy/fft/tests/test_pocketfft.py:        t = [threading.Thread(target=worker, args=(args, q))
+./.venv/lib64/python3.13/site-packages/numpy/fft/tests/test_pocketfft.py:        [x.start() for x in t]
+./.venv/lib64/python3.13/site-packages/numpy/lib/tests/test_io.py:        threads = [threading.Thread(target=writer, args=(errors,))
+./.venv/lib64/python3.13/site-packages/numpy/lib/tests/test_io.py:            t.start()
+./.venv/lib64/python3.13/site-packages/numpy/lib/tests/test_io.py:        p.start()
+./.venv/lib64/python3.13/site-packages/numpy/f2py/tests/test_callback.py:            threading.Thread(target=runner, args=(arg, ))
+./.venv/lib64/python3.13/site-packages/numpy/f2py/tests/test_callback.py:            t.start()
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:        line = line[:match.start()] + line[match.end():]
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:                        tt[m.start():m.end()] = list(
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:                            initexpr[m.start():m.end()].lower().replace('d', 'e'))
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:                    tt[m.start():m.end()] = list(
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:                        v[m.start():m.end()].lower().replace('d', 'e'))
+./.venv/lib64/python3.13/site-packages/numpy/f2py/crackfortran.py:            n = v[m.start():m.end()]
+./.venv/lib64/python3.13/site-packages/numpy/f2py/_src_pyf.py:        start = m.start()
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task1 = threading.Thread(target=concurrent_thread1,
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task2 = threading.Thread(target=concurrent_thread2,
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task1.start()
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task2.start()
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task1 = threading.Thread(target=legacy_113)
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task2 = threading.Thread(target=legacy_125)
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task1.start()
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task2.start()
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_argparse.py:    tasks = [threading.Thread(target=call_thread_func) for _ in range(8)]
+./.venv/lib64/python3.13/site-packages/numpy/_core/tests/test_argparse.py:    [t.start() for t in tasks]
+./.venv/lib64/python3.13/site-packages/numpy/random/tests/test_generator_mt19937.py:        [x.start() for x in t]
+./.venv/lib64/python3.13/site-packages/numpy/random/tests/test_randomstate.py:        [x.start() for x in t]
+./.venv/lib64/python3.13/site-packages/numpy/random/tests/test_random.py:        [x.start() for x in t]
+./.venv/lib64/python3.13/site-packages/rich/progress.py:        self.start()
+./.venv/lib64/python3.13/site-packages/rich/progress.py:        self.progress.start()
+./.venv/lib64/python3.13/site-packages/rich/progress.py:        self.start()
+./.venv/lib64/python3.13/site-packages/rich/status.py:        self._live.start()
+./.venv/lib64/python3.13/site-packages/rich/status.py:        self.start()
+./.venv/lib64/python3.13/site-packages/rich/syntax.py:                match.start() + 1
+./.venv/lib64/python3.13/site-packages/rich/live.py:                self._refresh_thread.start()
+./.venv/lib64/python3.13/site-packages/anyio/_backends/_asyncio.py:        thread = threading.Thread(target=_do_shutdown, args=(future,))
+./.venv/lib64/python3.13/site-packages/anyio/_backends/_asyncio.py:        thread.start()
+./.venv/lib64/python3.13/site-packages/anyio/_backends/_asyncio.py:                    worker.start()
+./.venv/lib64/python3.13/site-packages/anyio/from_thread.py:    thread.start()
+./.venv/lib64/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:        self._thread = threading.Thread(target=self.run, name="AnyIO socket selector")
+./.venv/lib64/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:        self._thread.start()
+./.venv/lib64/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:            _selector.start()
+./.venv/lib64/python3.13/site-packages/qdrant_client/parallel_processor.py:            process.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:        lo = self.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:        return variables.ConstantVariable.create(self.start() + (index * self.step()))
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:            return self.start() + (index * self.step())
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:            or r0.start() != r1.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:        start, stop, step = self.start(), self.stop(), self.step()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:                self.start(), self.stop(), self.step(), self.range_length()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:        start = self.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/variables/lists.py:            self.start() == other.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/convert_frame.py:    speculation_log.restart()  # type: ignore[has-type]
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/convert_frame.py:            tracer.output.mark_bytecode_tracing_start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/utils.py:            cls._id = _instruction_counter.start()
+./.venv/lib64/python3.13/site-packages/torch/_dynamo/utils.py:                cls.start()
+./.venv/lib64/python3.13/site-packages/torch/_jit_internal.py:        if isinstance(obj, threading.Thread):
+./.venv/lib64/python3.13/site-packages/torch/profiler/profiler.py:            When this argument is included the observer start() and stop() will be called for the
+./.venv/lib64/python3.13/site-packages/torch/profiler/profiler.py:            self.execution_trace_observer.start()
+./.venv/lib64/python3.13/site-packages/torch/profiler/profiler.py:            When this argument is included the observer start() and stop() will be called for the
+./.venv/lib64/python3.13/site-packages/torch/profiler/profiler.py:        self.start()
+./.venv/lib64/python3.13/site-packages/torch/profiler/profiler.py:    callbacks. Once an ExecutionTraceObserver is created, the start() and stop()
+./.venv/lib64/python3.13/site-packages/torch/utils/data/dataloader.py:            # NB: Process.start() actually take some time as it needs to
+./.venv/lib64/python3.13/site-packages/torch/utils/data/dataloader.py:                w.start()
+./.venv/lib64/python3.13/site-packages/torch/utils/data/dataloader.py:            pin_memory_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/utils/data/dataloader.py:            pin_memory_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/multiprocessing/pool.py:            w.start()
+./.venv/lib64/python3.13/site-packages/torch/multiprocessing/spawn.py:        process.start()
+./.venv/lib64/python3.13/site-packages/torch/cuda/profiler.py:def start():
+./.venv/lib64/python3.13/site-packages/torch/cuda/profiler.py:        start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/debug/_frontend.py:        self._thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/debug/_frontend.py:        self._thread.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/debug/__init__.py:        _DEBUG_SERVER_PROC.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/_local_tensor/__init__.py:            threading.Thread(target=self._run, args=(i,), name="LocalRunnerMode")
+./.venv/lib64/python3.13/site-packages/torch/distributed/_local_tensor/__init__.py:            r.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/distributed_c10d.py:            backend._group_start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:            self._worker_watchdog.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:                self._health_check_server.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_rendezvous.py:        lease_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_rendezvous.py:        lease_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_server.py:     server.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_server.py:                "No etcd server process started. Call etcd_server.start() first"
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:        self._keep_alive_timer.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/rendezvous/utils.py:        self._thread.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/multiprocessing/tail_log.py:    The log files do not have to exist when the ``start()`` method is called. The tail-er will gracefully wait until
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/multiprocessing/tail_log.py:     tailer = TailLog("trainer", log_files, sys.stdout).start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/multiprocessing/__init__.py:        context.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py:        self._start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py:            tail_log.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/__init__.py:        server.start() # non-blocking
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread: threading.Thread | None = None
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread: threading.Thread | None = None
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/_async_process_executor.py:        self._save_process.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/hf_storage.py:                t = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/hf_storage.py:                t.start()
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/filesystem.py:            t = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/distributed/checkpoint/filesystem.py:            t.start()
+./.venv/lib64/python3.13/site-packages/torch/ao/pruning/_experimental/data_sparsifier/lightning/callbacks/data_sparsity.py:        on_train_start()
+./.venv/lib64/python3.13/site-packages/torch/ao/pruning/_experimental/data_sparsifier/lightning/callbacks/data_sparsity.py:        on_train_epoch_start()
+./.venv/lib64/python3.13/site-packages/torch/futures/__init__.py:            >>> t = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/futures/__init__.py:            >>> t.start()
+./.venv/lib64/python3.13/site-packages/torch/onnx/_internal/exporter/_core.py:        profiler.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:        self.read_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:        self.read_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/timer.py:                self.background_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/compile_worker/utils.py:    _watchdog_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/async_compile.py:def _compile_start() -> None:
+./.venv/lib64/python3.13/site-packages/torch/_inductor/async_compile.py:        _compile_start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/async_compile.py:        _compile_start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/autotune_process.py:        self.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/autotune_process.py:            self.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/autotune_process.py:        self.start()
+./.venv/lib64/python3.13/site-packages/torch/_inductor/autotune_process.py:                process.restart()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            process.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:        event_listener_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:        event_listener_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t = threading.Thread(target=worker, args=(rank, world, global_store))
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            process.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/check_kernel_launches.py:            context = code[m.start():end_paren + 1]
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:        t = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:        t.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:                t = threading.Thread(target=DistAutogradTest._workload_thread)
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:                t.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:        self.thread = threading.Thread()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:        self.thread.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:            th = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:            th.start()
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_utils.py:        help_thread = threading.Thread(target=run_unittest_help, args=(sys.argv,))
+./.venv/lib64/python3.13/site-packages/torch/testing/_internal/common_utils.py:        help_thread.start()
+./.venv/lib64/python3.13/site-packages/torch/autograd/profiler.py:def _run_on_profiler_start():
+./.venv/lib64/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib64/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib64/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib64/python3.13/site-packages/torch/nn/parallel/parallel_apply.py:            threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/nn/parallel/parallel_apply.py:            thread.start()
+./.venv/lib64/python3.13/site-packages/torch/_lazy/closure.py:            self._closure_event_loop = threading.Thread(
+./.venv/lib64/python3.13/site-packages/torch/_lazy/closure.py:            self._closure_event_loop.start()  # pyrefly: ignore [missing-attribute]
+./.venv/lib64/python3.13/site-packages/dotenv/parser.py:        self.position = Position.start()
+./.venv/lib64/python3.13/site-packages/dotenv/parser.py:        self.mark = Position.start()
+./.venv/lib64/python3.13/site-packages/dotenv/parser.py:        self.position.advance(self.string[match.start() : match.end()])
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"^abc", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)^abc", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"abc$", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"abc$", "abc\n").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc\n").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc\r").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)^abc", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)^abc", "\nabc").start(), 1)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "\nabc").start(), 1)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "\rabc").start(), 1)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)abc$", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)abc$", "abc\n").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc\n").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc\r").start(), 0)
+./.venv/lib64/python3.13/site-packages/regex/_regex_core.py:        return self.subpattern.has_simple_start()
+./.venv/lib64/python3.13/site-packages/regex/_regex_core.py:        return self.subpattern.has_simple_start()
+./.venv/lib64/python3.13/site-packages/regex/_regex_core.py:        return bool(self.items) and self.items[0].has_simple_start()
+./.venv/lib64/python3.13/site-packages/regex/_regex_core.py:        if not parsed.has_simple_start():
+./.venv/lib64/python3.13/site-packages/regex/_main.py:    if not parsed.has_simple_start():
+./.venv/lib64/python3.13/site-packages/httpx/_urlparse.py:        start_position, end_position = match.start(), match.end()
+./.venv/lib64/python3.13/site-packages/jinja2/utils.py:                middle = middle[: match.start()]
+./.venv/lib64/python3.13/site-packages/cuda/pathfinder/_utils/spawned_process_runner.py:    process.start()
+./.venv/lib64/python3.13/site-packages/markdown_it/rules_inline/text.py:    pos = terminator_char.start() if terminator_char else posMax
+./.venv/lib64/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_msvc.py:class CheckThread(threading.Thread):
+./.venv/lib64/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_msvc.py:            thread.start()
+./.venv/lib64/python3.13/site-packages/setuptools/_distutils/sysconfig.py:                    value = value[: m.start()] + item + after
+./.venv/lib64/python3.13/site-packages/pip/_vendor/pygments/scanner.py:        self.start_pos = m.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/pygments/lexer.py:            s = match.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/pygments/lexer.py:            s = match.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/pygments/filters/__init__.py:        start, end = match.start(), match.end()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/distlib/util.py:        filename = filename[:m.start()]
+./.venv/lib64/python3.13/site-packages/pip/_vendor/distlib/util.py:        t1 = threading.Thread(target=self.reader, args=(p.stdout, 'stdout'))
+./.venv/lib64/python3.13/site-packages/pip/_vendor/distlib/util.py:        t1.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/distlib/util.py:        t2 = threading.Thread(target=self.reader, args=(p.stderr, 'stderr'))
+./.venv/lib64/python3.13/site-packages/pip/_vendor/distlib/util.py:        t2.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.progress.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/status.py:        self._live.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/status.py:        self.start()
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/syntax.py:                match.start() + 1
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/live.py:                self._refresh_thread.start()
+./.venv/lib64/python3.13/site-packages/pip/_internal/index/package_finder.py:            version = version[: match.start()]
+./.venv/lib64/python3.13/site-packages/speech_recognition/__init__.py:        listener_thread = threading.Thread(target=threaded_listen)
+./.venv/lib64/python3.13/site-packages/speech_recognition/__init__.py:        listener_thread.start()
+./.venv/lib64/python3.13/site-packages/tqdm/_monitor.py:        self.start()
+./.venv/lib64/python3.13/site-packages/psutil/_pswindows.py:    # XXX: the necessary C bindings for start() and stop() are
+./.venv/lib64/python3.13/site-packages/huggingface_hub/utils/_telemetry.py:            _TELEMETRY_THREAD.start()
+./.venv/lib64/python3.13/site-packages/huggingface_hub/_upload_large_folder.py:        threading.Thread(
+./.venv/lib64/python3.13/site-packages/huggingface_hub/_upload_large_folder.py:        thread.start()
+./.venv/lib64/python3.13/site-packages/huggingface_hub/_commit_scheduler.py:        self._scheduler_thread.start()
+./.venv/lib64/python3.13/site-packages/huggingface_hub/repocard.py:            output = content[: match.start()] + f"---{line_break}{data_yaml}---{line_break}" + content[match.end() :]
+./.venv/lib64/python3.13/site-packages/grpc/aio/_server.py:        await self._server.start()
+./.venv/lib64/python3.13/site-packages/grpc/_simple_stubs.py:    _eviction_thread: threading.Thread
+./.venv/lib64/python3.13/site-packages/grpc/_simple_stubs.py:        self._eviction_thread = threading.Thread(
+./.venv/lib64/python3.13/site-packages/grpc/_simple_stubs.py:        self._eviction_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_channel.py:    consumption_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_channel.py:    channel_spin_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_channel.py:    delivering_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_channel.py:            polling_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/beta/_server_adaptations.py:    request_pipe_thread = threading.Thread(target=pipe_requests)
+./.venv/lib64/python3.13/site-packages/grpc/beta/_server_adaptations.py:    request_pipe_thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/beta/_server_adaptations.py:        self._grpc_server.start()
+./.venv/lib64/python3.13/site-packages/grpc/beta/_server_adaptations.py:        self._grpc_server.start()
+./.venv/lib64/python3.13/site-packages/grpc/beta/utilities.py:    ready_future.start()
+./.venv/lib64/python3.13/site-packages/grpc/_server.py:            thread = threading.Thread(target=cancel_all_calls_after_grace)
+./.venv/lib64/python3.13/site-packages/grpc/_server.py:            thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_server.py:        state.server.start()
+./.venv/lib64/python3.13/site-packages/grpc/_server.py:        thread = threading.Thread(target=_serve, args=(state,))
+./.venv/lib64/python3.13/site-packages/grpc/_server.py:        thread.start()
+./.venv/lib64/python3.13/site-packages/grpc/_utilities.py:    ready_future.start()
+./.venv/lib64/python3.13/site-packages/triton/profiler/profile.py:        # Ignore the start() call if the script is run from the command line or profiling is disabled.
+./.venv/lib64/python3.13/site-packages/triton/profiler/profile.py:        See start() for the arguments.
+./.venv/lib64/python3.13/site-packages/triton/profiler/profile.py:        See start() for the arguments.
+./.venv/lib64/python3.13/site-packages/triton/runtime/jit.py:        src = src[re.search(r"^def\s+\w+\s*\(", src, re.MULTILINE).start():]
+./.venv/lib64/python3.13/site-packages/yaml/emitter.py:            self.write_stream_start()
+./.venv/lib64/python3.13/site-packages/yaml/scanner.py:        self.fetch_stream_start()
+./.venv/lib64/python3.13/site-packages/yaml/scanner.py:        if ch == '-' and self.check_document_start():
+./.venv/lib64/python3.13/site-packages/yaml/scanner.py:            return self.fetch_document_start()
+./.venv/lib64/python3.13/site-packages/yaml/scanner.py:            return self.fetch_flow_sequence_start()
+./.venv/lib64/python3.13/site-packages/yaml/scanner.py:            return self.fetch_flow_mapping_start()
+./.venv/lib64/python3.13/site-packages/yaml/reader.py:            position = self.index+(len(self.buffer)-self.pointer)+match.start()
+./.venv/lib64/python3.13/site-packages/yaml/parser.py:            return self.parse_document_start()
+./.venv/lib64/python3.13/site-packages/fsspec/transaction.py:        self.start()
+./.venv/lib64/python3.13/site-packages/fsspec/asyn.py:                th = threading.Thread(target=loop[0].run_forever, name="fsspecIO")
+./.venv/lib64/python3.13/site-packages/fsspec/asyn.py:                th.start()
+./.venv/lib64/python3.13/site-packages/fsspec/fuse.py:        th = threading.Thread(target=func)
+./.venv/lib64/python3.13/site-packages/fsspec/fuse.py:        th.start()
+./.venv/lib/python3.13/site-packages/pygments/scanner.py:        self.start_pos = m.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/textfmts.py:        offset = match.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/crystal.py:                            yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/crystal.py:                        yield match.start(), String.Delimiter, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/crystal.py:                        yield amatch.start(), Error, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/_mysql_builtins.py:        data = data[:m.start()] + new_block + data[m.end():]
+./.venv/lib/python3.13/site-packages/pygments/lexers/_postgres_builtins.py:        data = data[:m.start()] + new_block + data[m.end():]
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Function, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Exception, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Heading, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Operator, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Type, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable.Instance, word  # lit-word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Label, word  # issue
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Decorator, word  # file
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Function, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Builtin.Pseudo, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Exception, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Namespace, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Operator, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Keyword.Type, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable.Instance, word  # lit-word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Label, word  # issue
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Decorator, word  # file
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Generic.Subheading, word  # get-word
+./.venv/lib/python3.13/site-packages/pygments/lexers/rebol.py:            yield match.start(), Name.Variable, word
+./.venv/lib/python3.13/site-packages/pygments/lexers/dylan.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/perl.py:            yield match.start(), token_class, text[match.start():end_pos + n_chars]
+./.venv/lib/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib/python3.13/site-packages/pygments/lexers/perl.py:        yield match.start(), Text, context.text[match.start():match.end()]
+./.venv/lib/python3.13/site-packages/pygments/lexers/php.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/lisp.py:        yield match.start(), token_type, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/tnt.py:        self.cur.append((match.start(), Number.Integer, match.group(0)))
+./.venv/lib/python3.13/site-packages/pygments/lexers/ruby.py:                            yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/ruby.py:                        yield match.start(), String.Delimiter, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/ruby.py:                        yield amatch.start(), Error, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/ruby.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/csound.py:        yield match.start(), Name.Function, opcode
+./.venv/lib/python3.13/site-packages/pygments/lexers/csound.py:            yield match.start(), Name.Builtin, name
+./.venv/lib/python3.13/site-packages/pygments/lexers/csound.py:            yield match.start(), Name.Function, name
+./.venv/lib/python3.13/site-packages/pygments/lexers/csound.py:                yield match.start(), Name, name
+./.venv/lib/python3.13/site-packages/pygments/lexers/_csound_builtins.py:#   opcodes = output[re.search(r'^\$', output, re.M).end() : re.search(r'^\d+ opcodes\$', output, re.M).start()].split()
+./.venv/lib/python3.13/site-packages/pygments/lexers/_csound_builtins.py:#   all_opcodes = output[re.search(r'^\$', output, re.M).end() : re.search(r'^\d+ opcodes\$', output, re.M).start()].split()
+./.venv/lib/python3.13/site-packages/pygments/lexers/matlab.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/css.py:    yield match.start(), Whitespace, indentation
+./.venv/lib/python3.13/site-packages/pygments/lexers/css.py:        yield match.start(), token, match.group(0)
+./.venv/lib/python3.13/site-packages/pygments/lexers/bibtex.py:        yield match.start(), Punctuation, opening_brace
+./.venv/lib/python3.13/site-packages/pygments/lexers/bibtex.py:            yield match.start(), Error, closing_brace
+./.venv/lib/python3.13/site-packages/pygments/lexers/bibtex.py:            yield match.start(), Punctuation, closing_brace
+./.venv/lib/python3.13/site-packages/pygments/lexers/markup.py:            yield match.start() + index + 1, Text, content
+./.venv/lib/python3.13/site-packages/pygments/lexers/markup.py:            yield match.start() + index + 1, Text, content
+./.venv/lib/python3.13/site-packages/pygments/lexers/mime.py:            yield match.start(), Comment, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/mime.py:        pos_body_start = match.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/mime.py:            yield pos_body_start, Text, entire_body[:m.start()]
+./.venv/lib/python3.13/site-packages/pygments/lexers/mime.py:            lpos_end = m.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Operator, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:                yield match.start(), Punctuation, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), String.Doc, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Tag, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Keyword, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Whitespace, match.group(2)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(3)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Punctuation, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/webmisc.py:        yield match.start(), Name.Attribute, match.group(1)
+./.venv/lib/python3.13/site-packages/pygments/lexers/shell.py:                    pos = match.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/shell.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start()+len(text), token_class.Error, extra
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:            yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                    yield match.start(), indent_token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), indent_token_class, indentation
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield (match.start()+context.block_scalar_indent,
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/data.py:                yield match.start(), token_class, text
+./.venv/lib/python3.13/site-packages/pygments/lexers/asm.py:        yield match.start(), klass, ident
+./.venv/lib/python3.13/site-packages/pygments/lexers/configs.py:                    yield amatch.start(), String.Heredoc, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/configs.py:                yield match.start(), String.Delimiter, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/configs.py:                yield amatch.start(), Error, amatch.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), Generic.Traceback, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/erlang.py:                    yield match.start(), token, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/r.py:                yield match.start(), Generic.Output, line
+./.venv/lib/python3.13/site-packages/pygments/lexers/sql.py:            lexer.text[max(0, match.start()-100):match.start()]))
+./.venv/lib/python3.13/site-packages/pygments/lexers/sql.py:                lexer.text[max(0, match.start()-25):match.start()]))
+./.venv/lib/python3.13/site-packages/pygments/lexers/sql.py:                    yield (match.start(), Generic.Traceback, line)
+./.venv/lib/python3.13/site-packages/pygments/lexers/sql.py:                    yield (match.start(), Generic.Output, line)
+./.venv/lib/python3.13/site-packages/pygments/lexers/urbi.py:        yield match.start(), String, text_before_blob
+./.venv/lib/python3.13/site-packages/pygments/lexers/urbi.py:            yield match.start(), String, result
+./.venv/lib/python3.13/site-packages/pygments/lexers/urbi.py:        yield match.start(), String.Escape, blob_text
+./.venv/lib/python3.13/site-packages/pygments/lexers/haxe.py:        yield match.start(), Comment.Preproc, '#' + proc
+./.venv/lib/python3.13/site-packages/pygments/lexers/dsls.py:            s = match.start()
+./.venv/lib/python3.13/site-packages/pygments/lexers/dsls.py:                yield s + match.start(), String.Escape, match.group()
+./.venv/lib/python3.13/site-packages/pygments/lexers/slash.py:        yield match.start(), String.Interpol, '}'
+./.venv/lib/python3.13/site-packages/pygments/lexer.py:            s = match.start()
+./.venv/lib/python3.13/site-packages/pygments/lexer.py:            s = match.start()
+./.venv/lib/python3.13/site-packages/pygments/filters/__init__.py:        start, end = match.start(), match.end()
+./.venv/lib/python3.13/site-packages/portalocker/redis.py:                self.thread.start()
+./.venv/lib/python3.13/site-packages/fastavro/_write_py.py:    encoder.write_array_start()
+./.venv/lib/python3.13/site-packages/fastavro/_write_py.py:    encoder.write_map_start()
+./.venv/lib/python3.13/site-packages/fastavro/io/json_encoder.py:            self.write_object_start()
+./.venv/lib/python3.13/site-packages/fastavro/io/json_encoder.py:        self.write_object_start()
+./.venv/lib/python3.13/site-packages/fastavro/io/json_encoder.py:            self.write_object_start()
+./.venv/lib/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_array_start()
+./.venv/lib/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_array_start()
+./.venv/lib/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_map_start()
+./.venv/lib/python3.13/site-packages/fastavro/_read_py.py:    decoder.read_map_start()
+./.venv/lib/python3.13/site-packages/websockets/sync/server.py:            thread = threading.Thread(target=self.handler, args=(sock, addr))
+./.venv/lib/python3.13/site-packages/websockets/sync/server.py:            thread.start()
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:        self.keepalive_thread: threading.Thread | None = None
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:        self.recv_events_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:        self.recv_events_thread.start()
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:            self.keepalive_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/websockets/sync/connection.py:            self.keepalive_thread.start()
+./.venv/lib/python3.13/site-packages/PIL/PdfParser.py:            m = self.re_trailer_end.search(self.buf, m.start() + 16)
+./.venv/lib/python3.13/site-packages/PIL/PdfParser.py:            result.extend(data[offset : m.start()])
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/managed_window.py:        self.Thread.start()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_mode_base.py:        Thread(target=self._calculate_cverts).start()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_mode_base.py:        Thread(target=self._calculate_all).start()
+./.venv/lib/python3.13/site-packages/sympy/plotting/experimental_lambdify.py:            start = first_par.start()
+./.venv/lib/python3.13/site-packages/sympy/parsing/mathematica.py:            if m.start() != 0 or end != len(fm):
+./.venv/lib/python3.13/site-packages/sympy/parsing/mathematica.py:            bgn = m.start()
+./.venv/lib/python3.13/site-packages/sympy/parsing/mathematica.py:            xbgn = m.start()
+./.venv/lib/python3.13/site-packages/sympy/parsing/mathematica.py:            string_end = string_start + match_end.start() + 1
+./.venv/lib/python3.13/site-packages/sympy/parsing/mathematica.py:            position = match.start()
+./.venv/lib/python3.13/site-packages/sympy/tensor/array/expressions/from_array_to_matrix.py:    editor.track_permutation_start()
+./.venv/lib/python3.13/site-packages/sympy/tensor/array/expressions/from_array_to_matrix.py:    editor.track_permutation_start()
+./.venv/lib/python3.13/site-packages/sympy/testing/runtests.py:        self._reporter.start()
+./.venv/lib/python3.13/site-packages/sympy/core/tests/test_symbol.py:    thread = threading.Thread(target=thread1)
+./.venv/lib/python3.13/site-packages/sympy/core/tests/test_symbol.py:    thread.start()
+./.venv/lib/python3.13/site-packages/sympy/core/parameters.py:    >>> thread = threading.Thread(target=f)
+./.venv/lib/python3.13/site-packages/sympy/core/parameters.py:    >>> thread.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer.py:        self._memory_tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/testing_utils.py:        self.mock = self.patcher.start()
+./.venv/lib/python3.13/site-packages/transformers/testing_utils.py:    process.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer_jit_checkpoint.py:        threading.Timer(self.kill_wait, self._enable_checkpoint).start()
+./.venv/lib/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        self._generation_thread = threading.Thread(target=self._run_generation_loop)
+./.venv/lib/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        self._generation_thread.start()
+./.venv/lib/python3.13/site-packages/transformers/generation/continuous_batching/continuous_api.py:        manager.start()
+./.venv/lib/python3.13/site-packages/transformers/generation/streamers.py:        >>> thread.start()
+./.venv/lib/python3.13/site-packages/transformers/generation/streamers.py:        ...     thread.start()
+./.venv/lib/python3.13/site-packages/transformers/utils/chat_template_utils.py:            desc = enum_choices.string[: enum_choices.start()].strip()
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:        remainder_docstring = docstring[match.start() :]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:        docstring = docstring[: match.start()]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:        docstring_intro = docstring[: args_match.start()]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:            return_docstring = func_documentation[match_start.start() : match_end.start()]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:            func_documentation = func_documentation[match_end.start() :]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:            return_docstring = func_documentation[match_start.start() :]
+./.venv/lib/python3.13/site-packages/transformers/utils/auto_docstring.py:        example_docstring = func_documentation[match.start() :]
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:        self._timer.start()
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:        self._timer.start()
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:        self._thread = threading.Thread(target=_run, name="uvicorn-thread", daemon=False)
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:        self._thread.start()
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:            self.running_continuous_batching_manager.start()
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:                thread.start()
+./.venv/lib/python3.13/site-packages/transformers/cli/serve.py:                thread.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer_utils.py:    self._memory_tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/trainer_utils.py:        peak_monitor_thread = threading.Thread(target=self.peak_monitor_func)
+./.venv/lib/python3.13/site-packages/transformers/trainer_utils.py:        peak_monitor_thread.start()
+./.venv/lib/python3.13/site-packages/transformers/integrations/integration_utils.py:            self.tracker.start()
+./.venv/lib/python3.13/site-packages/transformers/models/qwen3_omni_moe/modular_qwen3_omni_moe.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib/python3.13/site-packages/transformers/models/qwen3_omni_moe/processing_qwen3_omni_moe.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib/python3.13/site-packages/transformers/models/qwen2_5_omni/processing_qwen2_5_omni.py:            positions = sorted([(match.start(), match.group()) for match in re.finditer(pattern, sample)])
+./.venv/lib/python3.13/site-packages/transformers/models/tapas/tokenization_tapas.py:        span_text = text[match.start() : match.end()]
+./.venv/lib/python3.13/site-packages/transformers/models/gemma3/processing_gemma3.py:                image_indexes = [m.start() for m in re.finditer(self.boi_token, prompt)]
+./.venv/lib/python3.13/site-packages/transformers/models/donut/processing_donut.py:            start_token = tokens[potential_start.start() :]
+./.venv/lib/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            return m.start() if m else -1
+./.venv/lib/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            completion = completion[: prints[1].start()]
+./.venv/lib/python3.13/site-packages/transformers/models/codegen/tokenization_codegen.py:            completion = completion[: defs[1].start()]
+./.venv/lib/python3.13/site-packages/transformers/modeling_utils.py:                        ).start()
+./.venv/lib/python3.13/site-packages/numpy/fft/tests/test_pocketfft.py:        t = [threading.Thread(target=worker, args=(args, q))
+./.venv/lib/python3.13/site-packages/numpy/fft/tests/test_pocketfft.py:        [x.start() for x in t]
+./.venv/lib/python3.13/site-packages/numpy/lib/tests/test_io.py:        threads = [threading.Thread(target=writer, args=(errors,))
+./.venv/lib/python3.13/site-packages/numpy/lib/tests/test_io.py:            t.start()
+./.venv/lib/python3.13/site-packages/numpy/lib/tests/test_io.py:        p.start()
+./.venv/lib/python3.13/site-packages/numpy/f2py/tests/test_callback.py:            threading.Thread(target=runner, args=(arg, ))
+./.venv/lib/python3.13/site-packages/numpy/f2py/tests/test_callback.py:            t.start()
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:        line = line[:match.start()] + line[match.end():]
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:                        tt[m.start():m.end()] = list(
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:                            initexpr[m.start():m.end()].lower().replace('d', 'e'))
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:                    tt[m.start():m.end()] = list(
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:                        v[m.start():m.end()].lower().replace('d', 'e'))
+./.venv/lib/python3.13/site-packages/numpy/f2py/crackfortran.py:            n = v[m.start():m.end()]
+./.venv/lib/python3.13/site-packages/numpy/f2py/_src_pyf.py:        start = m.start()
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task1 = threading.Thread(target=concurrent_thread1,
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task2 = threading.Thread(target=concurrent_thread2,
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task1.start()
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_mem_policy.py:    concurrent_task2.start()
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task1 = threading.Thread(target=legacy_113)
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task2 = threading.Thread(target=legacy_125)
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task1.start()
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_multithreading.py:    task2.start()
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_argparse.py:    tasks = [threading.Thread(target=call_thread_func) for _ in range(8)]
+./.venv/lib/python3.13/site-packages/numpy/_core/tests/test_argparse.py:    [t.start() for t in tasks]
+./.venv/lib/python3.13/site-packages/numpy/random/tests/test_generator_mt19937.py:        [x.start() for x in t]
+./.venv/lib/python3.13/site-packages/numpy/random/tests/test_randomstate.py:        [x.start() for x in t]
+./.venv/lib/python3.13/site-packages/numpy/random/tests/test_random.py:        [x.start() for x in t]
+./.venv/lib/python3.13/site-packages/rich/progress.py:        self.start()
+./.venv/lib/python3.13/site-packages/rich/progress.py:        self.progress.start()
+./.venv/lib/python3.13/site-packages/rich/progress.py:        self.start()
+./.venv/lib/python3.13/site-packages/rich/status.py:        self._live.start()
+./.venv/lib/python3.13/site-packages/rich/status.py:        self.start()
+./.venv/lib/python3.13/site-packages/rich/syntax.py:                match.start() + 1
+./.venv/lib/python3.13/site-packages/rich/live.py:                self._refresh_thread.start()
+./.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py:        thread = threading.Thread(target=_do_shutdown, args=(future,))
+./.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py:        thread.start()
+./.venv/lib/python3.13/site-packages/anyio/_backends/_asyncio.py:                    worker.start()
+./.venv/lib/python3.13/site-packages/anyio/from_thread.py:    thread.start()
+./.venv/lib/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:        self._thread = threading.Thread(target=self.run, name="AnyIO socket selector")
+./.venv/lib/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:        self._thread.start()
+./.venv/lib/python3.13/site-packages/anyio/_core/_asyncio_selector_thread.py:            _selector.start()
+./.venv/lib/python3.13/site-packages/qdrant_client/parallel_processor.py:            process.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:        lo = self.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:        return variables.ConstantVariable.create(self.start() + (index * self.step()))
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:            return self.start() + (index * self.step())
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:            or r0.start() != r1.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:        start, stop, step = self.start(), self.stop(), self.step()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:                self.start(), self.stop(), self.step(), self.range_length()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:        start = self.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/variables/lists.py:            self.start() == other.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/convert_frame.py:    speculation_log.restart()  # type: ignore[has-type]
+./.venv/lib/python3.13/site-packages/torch/_dynamo/convert_frame.py:            tracer.output.mark_bytecode_tracing_start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/utils.py:            cls._id = _instruction_counter.start()
+./.venv/lib/python3.13/site-packages/torch/_dynamo/utils.py:                cls.start()
+./.venv/lib/python3.13/site-packages/torch/_jit_internal.py:        if isinstance(obj, threading.Thread):
+./.venv/lib/python3.13/site-packages/torch/profiler/profiler.py:            When this argument is included the observer start() and stop() will be called for the
+./.venv/lib/python3.13/site-packages/torch/profiler/profiler.py:            self.execution_trace_observer.start()
+./.venv/lib/python3.13/site-packages/torch/profiler/profiler.py:            When this argument is included the observer start() and stop() will be called for the
+./.venv/lib/python3.13/site-packages/torch/profiler/profiler.py:        self.start()
+./.venv/lib/python3.13/site-packages/torch/profiler/profiler.py:    callbacks. Once an ExecutionTraceObserver is created, the start() and stop()
+./.venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:            # NB: Process.start() actually take some time as it needs to
+./.venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:                w.start()
+./.venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:            pin_memory_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/utils/data/dataloader.py:            pin_memory_thread.start()
+./.venv/lib/python3.13/site-packages/torch/multiprocessing/pool.py:            w.start()
+./.venv/lib/python3.13/site-packages/torch/multiprocessing/spawn.py:        process.start()
+./.venv/lib/python3.13/site-packages/torch/cuda/profiler.py:def start():
+./.venv/lib/python3.13/site-packages/torch/cuda/profiler.py:        start()
+./.venv/lib/python3.13/site-packages/torch/distributed/debug/_frontend.py:        self._thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/debug/_frontend.py:        self._thread.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/debug/__init__.py:        _DEBUG_SERVER_PROC.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/_local_tensor/__init__.py:            threading.Thread(target=self._run, args=(i,), name="LocalRunnerMode")
+./.venv/lib/python3.13/site-packages/torch/distributed/_local_tensor/__init__.py:            r.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/distributed_c10d.py:            backend._group_start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:            self._worker_watchdog.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/agent/server/local_elastic_agent.py:                self._health_check_server.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_rendezvous.py:        lease_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_rendezvous.py:        lease_thread.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_server.py:     server.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/etcd_server.py:                "No etcd server process started. Call etcd_server.start() first"
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/dynamic_rendezvous.py:        self._keep_alive_timer.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/rendezvous/utils.py:        self._thread.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/tail_log.py:    The log files do not have to exist when the ``start()`` method is called. The tail-er will gracefully wait until
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/tail_log.py:     tailer = TailLog("trainer", log_files, sys.stdout).start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/__init__.py:        context.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py:        self._start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/multiprocessing/api.py:            tail_log.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/__init__.py:        server.start() # non-blocking
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread: threading.Thread | None = None
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/api.py:        self._watchdog_thread.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread: threading.Thread | None = None
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/elastic/timer/file_based_local_timer.py:        self._watchdog_thread.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/_async_process_executor.py:        self._save_process.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/hf_storage.py:                t = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/hf_storage.py:                t.start()
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/filesystem.py:            t = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/distributed/checkpoint/filesystem.py:            t.start()
+./.venv/lib/python3.13/site-packages/torch/ao/pruning/_experimental/data_sparsifier/lightning/callbacks/data_sparsity.py:        on_train_start()
+./.venv/lib/python3.13/site-packages/torch/ao/pruning/_experimental/data_sparsifier/lightning/callbacks/data_sparsity.py:        on_train_epoch_start()
+./.venv/lib/python3.13/site-packages/torch/futures/__init__.py:            >>> t = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/futures/__init__.py:            >>> t.start()
+./.venv/lib/python3.13/site-packages/torch/onnx/_internal/exporter/_core.py:        profiler.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:        self.read_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/subproc_pool.py:        self.read_thread.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/timer.py:                self.background_thread.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/compile_worker/utils.py:    _watchdog_thread.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/async_compile.py:def _compile_start() -> None:
+./.venv/lib/python3.13/site-packages/torch/_inductor/async_compile.py:        _compile_start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/async_compile.py:        _compile_start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/autotune_process.py:        self.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/autotune_process.py:            self.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/autotune_process.py:        self.start()
+./.venv/lib/python3.13/site-packages/torch/_inductor/autotune_process.py:                process.restart()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            process.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:        event_listener_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:        event_listener_thread.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t = threading.Thread(target=worker, args=(rank, world, global_store))
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            t.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_distributed.py:            process.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/check_kernel_launches.py:            context = code[m.start():end_paren + 1]
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:        t = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:        t.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:                t = threading.Thread(target=DistAutogradTest._workload_thread)
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/dist_autograd_test.py:                t.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:        self.thread = threading.Thread()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:        self.thread.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:            th = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/distributed/rpc/rpc_test.py:            th.start()
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_utils.py:        help_thread = threading.Thread(target=run_unittest_help, args=(sys.argv,))
+./.venv/lib/python3.13/site-packages/torch/testing/_internal/common_utils.py:        help_thread.start()
+./.venv/lib/python3.13/site-packages/torch/autograd/profiler.py:def _run_on_profiler_start():
+./.venv/lib/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib/python3.13/site-packages/torch/autograd/profiler.py:        _run_on_profiler_start()
+./.venv/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py:            threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/nn/parallel/parallel_apply.py:            thread.start()
+./.venv/lib/python3.13/site-packages/torch/_lazy/closure.py:            self._closure_event_loop = threading.Thread(
+./.venv/lib/python3.13/site-packages/torch/_lazy/closure.py:            self._closure_event_loop.start()  # pyrefly: ignore [missing-attribute]
+./.venv/lib/python3.13/site-packages/dotenv/parser.py:        self.position = Position.start()
+./.venv/lib/python3.13/site-packages/dotenv/parser.py:        self.mark = Position.start()
+./.venv/lib/python3.13/site-packages/dotenv/parser.py:        self.position.advance(self.string[match.start() : match.end()])
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"^abc", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)^abc", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"abc$", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"abc$", "abc\n").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc\n").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?w)abc$", "abc\r").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)^abc", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)^abc", "\nabc").start(), 1)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "\nabc").start(), 1)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)^abc", "\rabc").start(), 1)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)abc$", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?m)abc$", "abc\n").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc\n").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/tests/test_regex.py:        self.assertEqual(regex.search(r"(?mw)abc$", "abc\r").start(), 0)
+./.venv/lib/python3.13/site-packages/regex/_regex_core.py:        return self.subpattern.has_simple_start()
+./.venv/lib/python3.13/site-packages/regex/_regex_core.py:        return self.subpattern.has_simple_start()
+./.venv/lib/python3.13/site-packages/regex/_regex_core.py:        return bool(self.items) and self.items[0].has_simple_start()
+./.venv/lib/python3.13/site-packages/regex/_regex_core.py:        if not parsed.has_simple_start():
+./.venv/lib/python3.13/site-packages/regex/_main.py:    if not parsed.has_simple_start():
+./.venv/lib/python3.13/site-packages/httpx/_urlparse.py:        start_position, end_position = match.start(), match.end()
+./.venv/lib/python3.13/site-packages/jinja2/utils.py:                middle = middle[: match.start()]
+./.venv/lib/python3.13/site-packages/cuda/pathfinder/_utils/spawned_process_runner.py:    process.start()
+./.venv/lib/python3.13/site-packages/markdown_it/rules_inline/text.py:    pos = terminator_char.start() if terminator_char else posMax
+./.venv/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_msvc.py:class CheckThread(threading.Thread):
+./.venv/lib/python3.13/site-packages/setuptools/_distutils/compilers/C/tests/test_msvc.py:            thread.start()
+./.venv/lib/python3.13/site-packages/setuptools/_distutils/sysconfig.py:                    value = value[: m.start()] + item + after
+./.venv/lib/python3.13/site-packages/pip/_vendor/pygments/scanner.py:        self.start_pos = m.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/pygments/lexer.py:            s = match.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/pygments/lexer.py:            s = match.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/pygments/filters/__init__.py:        start, end = match.start(), match.end()
+./.venv/lib/python3.13/site-packages/pip/_vendor/distlib/util.py:        filename = filename[:m.start()]
+./.venv/lib/python3.13/site-packages/pip/_vendor/distlib/util.py:        t1 = threading.Thread(target=self.reader, args=(p.stdout, 'stdout'))
+./.venv/lib/python3.13/site-packages/pip/_vendor/distlib/util.py:        t1.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/distlib/util.py:        t2 = threading.Thread(target=self.reader, args=(p.stderr, 'stderr'))
+./.venv/lib/python3.13/site-packages/pip/_vendor/distlib/util.py:        t2.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.progress.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/progress.py:        self.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/status.py:        self._live.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/status.py:        self.start()
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/syntax.py:                match.start() + 1
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/live.py:                self._refresh_thread.start()
+./.venv/lib/python3.13/site-packages/pip/_internal/index/package_finder.py:            version = version[: match.start()]
+./.venv/lib/python3.13/site-packages/speech_recognition/__init__.py:        listener_thread = threading.Thread(target=threaded_listen)
+./.venv/lib/python3.13/site-packages/speech_recognition/__init__.py:        listener_thread.start()
+./.venv/lib/python3.13/site-packages/tqdm/_monitor.py:        self.start()
+./.venv/lib/python3.13/site-packages/psutil/_pswindows.py:    # XXX: the necessary C bindings for start() and stop() are
+./.venv/lib/python3.13/site-packages/huggingface_hub/utils/_telemetry.py:            _TELEMETRY_THREAD.start()
+./.venv/lib/python3.13/site-packages/huggingface_hub/_upload_large_folder.py:        threading.Thread(
+./.venv/lib/python3.13/site-packages/huggingface_hub/_upload_large_folder.py:        thread.start()
+./.venv/lib/python3.13/site-packages/huggingface_hub/_commit_scheduler.py:        self._scheduler_thread.start()
+./.venv/lib/python3.13/site-packages/huggingface_hub/repocard.py:            output = content[: match.start()] + f"---{line_break}{data_yaml}---{line_break}" + content[match.end() :]
+./.venv/lib/python3.13/site-packages/grpc/aio/_server.py:        await self._server.start()
+./.venv/lib/python3.13/site-packages/grpc/_simple_stubs.py:    _eviction_thread: threading.Thread
+./.venv/lib/python3.13/site-packages/grpc/_simple_stubs.py:        self._eviction_thread = threading.Thread(
+./.venv/lib/python3.13/site-packages/grpc/_simple_stubs.py:        self._eviction_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_channel.py:    consumption_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_channel.py:    channel_spin_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_channel.py:    delivering_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_channel.py:            polling_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/beta/_server_adaptations.py:    request_pipe_thread = threading.Thread(target=pipe_requests)
+./.venv/lib/python3.13/site-packages/grpc/beta/_server_adaptations.py:    request_pipe_thread.start()
+./.venv/lib/python3.13/site-packages/grpc/beta/_server_adaptations.py:        self._grpc_server.start()
+./.venv/lib/python3.13/site-packages/grpc/beta/_server_adaptations.py:        self._grpc_server.start()
+./.venv/lib/python3.13/site-packages/grpc/beta/utilities.py:    ready_future.start()
+./.venv/lib/python3.13/site-packages/grpc/_server.py:            thread = threading.Thread(target=cancel_all_calls_after_grace)
+./.venv/lib/python3.13/site-packages/grpc/_server.py:            thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_server.py:        state.server.start()
+./.venv/lib/python3.13/site-packages/grpc/_server.py:        thread = threading.Thread(target=_serve, args=(state,))
+./.venv/lib/python3.13/site-packages/grpc/_server.py:        thread.start()
+./.venv/lib/python3.13/site-packages/grpc/_utilities.py:    ready_future.start()
+./.venv/lib/python3.13/site-packages/triton/profiler/profile.py:        # Ignore the start() call if the script is run from the command line or profiling is disabled.
+./.venv/lib/python3.13/site-packages/triton/profiler/profile.py:        See start() for the arguments.
+./.venv/lib/python3.13/site-packages/triton/profiler/profile.py:        See start() for the arguments.
+./.venv/lib/python3.13/site-packages/triton/runtime/jit.py:        src = src[re.search(r"^def\s+\w+\s*\(", src, re.MULTILINE).start():]
+./.venv/lib/python3.13/site-packages/yaml/emitter.py:            self.write_stream_start()
+./.venv/lib/python3.13/site-packages/yaml/scanner.py:        self.fetch_stream_start()
+./.venv/lib/python3.13/site-packages/yaml/scanner.py:        if ch == '-' and self.check_document_start():
+./.venv/lib/python3.13/site-packages/yaml/scanner.py:            return self.fetch_document_start()
+./.venv/lib/python3.13/site-packages/yaml/scanner.py:            return self.fetch_flow_sequence_start()
+./.venv/lib/python3.13/site-packages/yaml/scanner.py:            return self.fetch_flow_mapping_start()
+./.venv/lib/python3.13/site-packages/yaml/reader.py:            position = self.index+(len(self.buffer)-self.pointer)+match.start()
+./.venv/lib/python3.13/site-packages/yaml/parser.py:            return self.parse_document_start()
+./.venv/lib/python3.13/site-packages/fsspec/transaction.py:        self.start()
+./.venv/lib/python3.13/site-packages/fsspec/asyn.py:                th = threading.Thread(target=loop[0].run_forever, name="fsspecIO")
+./.venv/lib/python3.13/site-packages/fsspec/asyn.py:                th.start()
+./.venv/lib/python3.13/site-packages/fsspec/fuse.py:        th = threading.Thread(target=func)
+./.venv/lib/python3.13/site-packages/fsspec/fuse.py:        th.start()
+./gui/main_window.py:            self._auth_setup_thread = threading.Thread(target=_setup_worker, daemon=True)
+./gui/main_window.py:            self._auth_setup_thread.start()
+./gui/main_window.py:            self._auth_setup_thread = threading.Thread(target=_face_add_worker, daemon=True)
+./gui/main_window.py:            self._auth_setup_thread.start()
+./gui/main_window.py:        self.conversation.start()
+./gui/main_window.py:        worker = threading.Thread(target=self._capture_stt_once, daemon=True)
+./gui/main_window.py:        worker.start()
+./core/realtime_conversation.py:        self._listener_thread = threading.Thread(target=self._listener_loop, daemon=True)
+./core/realtime_conversation.py:        self._processor_thread = threading.Thread(target=self._processor_loop, daemon=True)
+./core/realtime_conversation.py:        self._speaker_thread = threading.Thread(target=self._speaker_loop, daemon=True)
+./core/realtime_conversation.py:        self._listener_thread.start()
+./core/realtime_conversation.py:        self._processor_thread.start()
+./core/realtime_conversation.py:        self._speaker_thread.start()
+./core/stt.py:        self._continuous_thread = threading.Thread(target=self._continuous_loop, daemon=True)
+./core/stt.py:        self._continuous_thread.start()
+./core/safe_control.py:            response = self.system_restart()
+./core/conversation_manager.py:        self.realtime.start()
+./core/tts.py:        self._stream_thread = threading.Thread(target=self._stream_worker_loop, daemon=True)
+./core/tts.py:        self._stream_thread.start()

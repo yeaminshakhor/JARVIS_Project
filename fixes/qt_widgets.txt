@@ -1,0 +1,11 @@
+./.venv/lib64/python3.13/site-packages/PyQt5/uic/widget-plugins/qtwebenginewidgets.py:    return "PyQt5.QtWebEngineWidgets", ("QWebEngineView", )
+./.venv/lib/python3.13/site-packages/PyQt5/uic/widget-plugins/qtwebenginewidgets.py:    return "PyQt5.QtWebEngineWidgets", ("QWebEngineView", )
+./gui/main_window.py:from PyQt5.QtWebEngineWidgets import QWebEnginePage, QWebEngineSettings, QWebEngineView
+./gui/main_window.py:class WebPopup(QDialog):
+./gui/main_window.py:        self.browser = QWebEngineView(self)
+./gui/main_window.py:        self.browser = QWebEngineView(self)
+./gui/main_window.py:                self.web_popup = WebPopup(title, web_map[low], self)
+./gui/widgets.py:from PyQt5.QtWebEngineWidgets import QWebEngineView
+./gui/widgets.py:            QWebEngineView {
+./gui/widgets.py:        self.web_view = QWebEngineView()
+./gui/widgets.py:            QWebEngineView {

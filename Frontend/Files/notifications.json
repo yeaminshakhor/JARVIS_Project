@@ -1,0 +1,227 @@
+[
+  {
+    "id": 25,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:39:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 24,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:39:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 23,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:38:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 22,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:38:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 21,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:37:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 20,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:37:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 19,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:36:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 18,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:36:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 17,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:35:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 16,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:35:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 15,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:34:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 14,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:34:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 13,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:33:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 12,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:33:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 11,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:32:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 10,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:32:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 9,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:31:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 8,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:31:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 7,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:30:38",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 6,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:30:08",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 5,
+    "title": "ℹ️ System",
+    "message": "JARVIS is running",
+    "app": "Core",
+    "time": "2026-02-28 02:20:52",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 4,
+    "title": "JARVIS",
+    "message": "Query: hey jarvis",
+    "app": "System",
+    "time": "2026-02-28 02:20:39",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 3,
+    "title": "JARVIS",
+    "message": "Microphone on",
+    "app": "System",
+    "time": "2026-02-28 02:20:34",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 2,
+    "title": "JARVIS",
+    "message": "Microphone off",
+    "app": "System",
+    "time": "2026-02-28 02:20:32",
+    "read": false,
+    "urgent": false
+  },
+  {
+    "id": 1,
+    "title": "JARVIS",
+    "message": "Microphone on",
+    "app": "System",
+    "time": "2026-02-28 02:20:30",
+    "read": false,
+    "urgent": false
+  }
+]

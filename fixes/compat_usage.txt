@@ -1,0 +1,22 @@
+# Compatibility shim usage
+
+## enhanced_utils
+./enhanced_utils.py:Many modules import symbols from `enhanced_utils`; this file re-exports
+./core/enhanced_compat.py:    from enhanced_utils import (  # type: ignore
+
+## core/enhanced_compat
+./core/auth.py:from .enhanced_compat import EnhancedErrorHandler, PerformanceTracker
+./core/Assistant.py:from .enhanced_compat import EnhancedErrorHandler, PerformanceTracker, SecurityLayer
+./core/model.py:from .enhanced_compat import EnhancedErrorHandler, PerformanceTracker, EnhancedCache, CommandHistory
+./core/image_gen.py:from .enhanced_compat import EnhancedErrorHandler, PerformanceTracker
+./core/tts.py:from .enhanced_compat import EnhancedErrorHandler, PerformanceTracker
+
+## core/automation
+./.venv/lib64/python3.13/site-packages/pygments/lexers/other.py:from pygments.lexers.automation import AutoItLexer, AutohotkeyLexer
+./.venv/lib64/python3.13/site-packages/transformers/generation/utils.py:           inherit from `GenerationMixin` to benefit from all generation-related automation in our codebase;
+./.venv/lib/python3.13/site-packages/pygments/lexers/other.py:from pygments.lexers.automation import AutoItLexer, AutohotkeyLexer
+./.venv/lib/python3.13/site-packages/transformers/generation/utils.py:           inherit from `GenerationMixin` to benefit from all generation-related automation in our codebase;
+./core/action_executor.py:    from core.automation import EnhancedProfessionalAIAutomation
+
+## core/RealTimeSearchEngine
+./core/action_executor.py:    from core.RealTimeSearchEngine import EnhancedGoogleSearch, EnhancedProcessQuery

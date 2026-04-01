@@ -1,0 +1,159 @@
+./.venv/lib64/python3.13/site-packages/pygments/lexers/_asy_builtins.py:    'camerafactor',
+./.venv/lib64/python3.13/site-packages/pygments/lexers/matlab.py:                        "cameratoolbar",
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:                't', 'tan', 'tanh', 'test_camera_1', 'test_camera_2', 'test_camera_3',
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:                'test_camera_4', 'texture', 'texture_map', 'tga', 'thickness', 'threshold',
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:                'bicubic_patch', 'blob', 'box', 'camera', 'cone', 'cubic', 'cylinder', 'difference',
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:        """POVRAY is similar to JSON/C, but the combination of camera and
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:        light_source/camera are not keywords anywhere else -- it's fair
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:        to assume though that any POVRAY scene must have a camera and
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:        if 'camera' in text:
+./.venv/lib64/python3.13/site-packages/PIL/JpegPresets.py:https://web.archive.org/web/20120328125543/http://www.jpegcameras.com/libjpeg/libjpeg-3.html
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                camerainfo: dict[str, int | bytes] = {
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                camerainfo["TimeStamp"] = i32le(self.fp.read(12))
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                camerainfo["InternalSerialNumber"] = self.fp.read(4)
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                camerainfo["Parallax"] = handler(
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                camerainfo["Category"] = self.fp.read(2)
+./.venv/lib64/python3.13/site-packages/PIL/Image.py:                                makernote = {0x1101: camerainfo}
+./.venv/lib64/python3.13/site-packages/PIL/MpoImagePlugin.py:# of this writing) the most commonly used format by 3D cameras.
+./.venv/lib64/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        To determine how to write the permutations, imagine 4 cameras,
+./.venv/lib64/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        Imagine a clockwise rotation when viewing 1-4 from camera A. The new
+./.venv/lib64/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        orientation is (in camera-order): 1, 3, 2, 4 so the permutation is
+./.venv/lib64/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        center of the square as viewed. The new camera-order would be
+./.venv/lib64/python3.13/site-packages/sympy/combinatorics/polyhedron.py:               camera order
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:from sympy.plotting.pygletplot.plot_camera import PlotCamera
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera = None
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera = PlotCamera(self, ortho=self.ortho)
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera.setup_projection()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        if self.camera is not None:
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:            self.camera.setup_projection()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera.apply_transformation()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:                self.camera.set_rot_preset(r.default_rot_preset)
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        key.X: 'reset_camera',
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        key.NUM_5: 'reset_camera',
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        self.camera = window.camera
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            'reset_camera': False,
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            # Performs camera z-translation
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.zoom_relative(z/10.0, self.get_key_sensitivity()/10.0)
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dx*dt*self.get_key_sensitivity(),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dy*dt*self.get_key_sensitivity(),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dz*dt*self.get_key_sensitivity(),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.mouse_translate(0, 0, dx*dt*self.get_key_sensitivity(),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.euler_rotate(rz*dt*self.get_key_sensitivity(),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        if self.action['reset_camera']:
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.reset()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('xy')
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('xz')
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('yz')
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('perspective')
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.axes.toggle_visible()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.axes.toggle_colors()
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.mouse_translate(x, y, dx, dy)
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.spherical_rotate((x - dx, y - dy), (x, y),
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.zoom_relative([1, -1][self.invert_mouse_zoom]*dy,
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.mouse_translate(x, y, dx, dy)
+./.venv/lib64/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        self.camera.zoom_relative([1, -1][self.invert_mouse_zoom]*dy,
+./.venv/lib64/python3.13/site-packages/sympy/utilities/tests/test_pickling.py:    from sympy.plotting.pygletplot.plot_camera import PlotCamera
+./.venv/lib64/python3.13/site-packages/sympy/utilities/tests/test_pickling.py:    #from sympy.plotting.plot_camera import PlotCamera
+./.venv/lib64/python3.13/site-packages/transformers/models/deit/modeling_deit.py:        Predicted class: Polaroid camera, Polaroid Land camera
+./.venv/lib64/python3.13/site-packages/transformers/video_utils.py:    video = cv2.VideoCapture(video_path)
+./.venv/lib64/python3.13/site-packages/rich/_emoji_codes.py:    "camera": "📷",
+./.venv/lib64/python3.13/site-packages/rich/_emoji_codes.py:    "camera_with_flash": "📸",
+./.venv/lib64/python3.13/site-packages/rich/_emoji_codes.py:    "movie_camera": "🎥",
+./.venv/lib64/python3.13/site-packages/rich/_emoji_codes.py:    "video_camera": "📹",
+./.venv/lib64/python3.13/site-packages/torch/utils/tensorboard/writer.py:        such as vertices, faces, users can further provide camera parameter, lighting condition, etc.
+./.venv/lib64/python3.13/site-packages/networkx/algorithms/flow/boykovkolmogorov.py:    .. [2] Vladimir Kolmogorov. Graph-based Algorithms for Multi-camera
+./.venv/lib64/python3.13/site-packages/setuptools/_distutils/tests/test_extension.py:            '_camera',
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "camera": "📷",
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "camera_with_flash": "📸",
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "movie_camera": "🎥",
+./.venv/lib64/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "video_camera": "📹",
+./.venv/lib/python3.13/site-packages/pygments/lexers/_asy_builtins.py:    'camerafactor',
+./.venv/lib/python3.13/site-packages/pygments/lexers/matlab.py:                        "cameratoolbar",
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:                't', 'tan', 'tanh', 'test_camera_1', 'test_camera_2', 'test_camera_3',
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:                'test_camera_4', 'texture', 'texture_map', 'tga', 'thickness', 'threshold',
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:                'bicubic_patch', 'blob', 'box', 'camera', 'cone', 'cubic', 'cylinder', 'difference',
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:        """POVRAY is similar to JSON/C, but the combination of camera and
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:        light_source/camera are not keywords anywhere else -- it's fair
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:        to assume though that any POVRAY scene must have a camera and
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:        if 'camera' in text:
+./.venv/lib/python3.13/site-packages/PIL/JpegPresets.py:https://web.archive.org/web/20120328125543/http://www.jpegcameras.com/libjpeg/libjpeg-3.html
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                camerainfo: dict[str, int | bytes] = {
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                camerainfo["TimeStamp"] = i32le(self.fp.read(12))
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                camerainfo["InternalSerialNumber"] = self.fp.read(4)
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                camerainfo["Parallax"] = handler(
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                camerainfo["Category"] = self.fp.read(2)
+./.venv/lib/python3.13/site-packages/PIL/Image.py:                                makernote = {0x1101: camerainfo}
+./.venv/lib/python3.13/site-packages/PIL/MpoImagePlugin.py:# of this writing) the most commonly used format by 3D cameras.
+./.venv/lib/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        To determine how to write the permutations, imagine 4 cameras,
+./.venv/lib/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        Imagine a clockwise rotation when viewing 1-4 from camera A. The new
+./.venv/lib/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        orientation is (in camera-order): 1, 3, 2, 4 so the permutation is
+./.venv/lib/python3.13/site-packages/sympy/combinatorics/polyhedron.py:        center of the square as viewed. The new camera-order would be
+./.venv/lib/python3.13/site-packages/sympy/combinatorics/polyhedron.py:               camera order
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:from sympy.plotting.pygletplot.plot_camera import PlotCamera
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera = None
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera = PlotCamera(self, ortho=self.ortho)
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera.setup_projection()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        if self.camera is not None:
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:            self.camera.setup_projection()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:        self.camera.apply_transformation()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_window.py:                self.camera.set_rot_preset(r.default_rot_preset)
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        key.X: 'reset_camera',
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        key.NUM_5: 'reset_camera',
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        self.camera = window.camera
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            'reset_camera': False,
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            # Performs camera z-translation
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.zoom_relative(z/10.0, self.get_key_sensitivity()/10.0)
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dx*dt*self.get_key_sensitivity(),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dy*dt*self.get_key_sensitivity(),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.euler_rotate(dz*dt*self.get_key_sensitivity(),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.mouse_translate(0, 0, dx*dt*self.get_key_sensitivity(),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.euler_rotate(rz*dt*self.get_key_sensitivity(),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        if self.action['reset_camera']:
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.reset()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('xy')
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('xz')
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('yz')
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.set_rot_preset('perspective')
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.axes.toggle_visible()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.axes.toggle_colors()
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.mouse_translate(x, y, dx, dy)
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:                self.camera.spherical_rotate((x - dx, y - dy), (x, y),
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.zoom_relative([1, -1][self.invert_mouse_zoom]*dy,
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:            self.camera.mouse_translate(x, y, dx, dy)
+./.venv/lib/python3.13/site-packages/sympy/plotting/pygletplot/plot_controller.py:        self.camera.zoom_relative([1, -1][self.invert_mouse_zoom]*dy,
+./.venv/lib/python3.13/site-packages/sympy/utilities/tests/test_pickling.py:    from sympy.plotting.pygletplot.plot_camera import PlotCamera
+./.venv/lib/python3.13/site-packages/sympy/utilities/tests/test_pickling.py:    #from sympy.plotting.plot_camera import PlotCamera
+./.venv/lib/python3.13/site-packages/transformers/models/deit/modeling_deit.py:        Predicted class: Polaroid camera, Polaroid Land camera
+./.venv/lib/python3.13/site-packages/transformers/video_utils.py:    video = cv2.VideoCapture(video_path)
+./.venv/lib/python3.13/site-packages/rich/_emoji_codes.py:    "camera": "📷",
+./.venv/lib/python3.13/site-packages/rich/_emoji_codes.py:    "camera_with_flash": "📸",
+./.venv/lib/python3.13/site-packages/rich/_emoji_codes.py:    "movie_camera": "🎥",
+./.venv/lib/python3.13/site-packages/rich/_emoji_codes.py:    "video_camera": "📹",
+./.venv/lib/python3.13/site-packages/torch/utils/tensorboard/writer.py:        such as vertices, faces, users can further provide camera parameter, lighting condition, etc.
+./.venv/lib/python3.13/site-packages/networkx/algorithms/flow/boykovkolmogorov.py:    .. [2] Vladimir Kolmogorov. Graph-based Algorithms for Multi-camera
+./.venv/lib/python3.13/site-packages/setuptools/_distutils/tests/test_extension.py:            '_camera',
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "camera": "📷",
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "camera_with_flash": "📸",
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "movie_camera": "🎥",
+./.venv/lib/python3.13/site-packages/pip/_vendor/rich/_emoji_codes.py:    "video_camera": "📹",
+./gui/main_window.py:            self._auth_setup_message = "Face enrollment started. Please look at the camera..."
+./gui/main_window.py:            return json.dumps(self._auth_payload("Face enrollment started. Please look at the camera..."))
+./gui/main_window.py:            self._auth_setup_message = "Face enrollment started. Please look at the camera..."
+./gui/main_window.py:            return json.dumps(self._auth_payload("Face enrollment started. Please look at the camera..."))
+./gui/main_window.py:            QWebEnginePage.MediaVideoCapture,
+./gui/main_window.py:            QWebEnginePage.MediaAudioVideoCapture,
+./core/auth.py:    def _open_camera(self):
+./core/auth.py:                cap = cv2.VideoCapture(0, backend)
+./core/auth.py:        cap = self._open_camera()
+./core/auth.py:            print("❌ Enhanced: Cannot access camera")
+./core/auth.py:            self.last_error = "Cannot access camera (device busy or permission denied)"
+./core/auth.py:                    cv2.putText(frame, "Enhanced: Look directly at camera", (10, frame.shape[0] - 60), 
+./core/auth.py:        cap = self._open_camera()
+./core/auth.py:            print("❌ Enhanced: Cannot access camera")
+./core/auth.py:            self.last_error = "Cannot access camera (device busy or permission denied)"
+./core/auth.py:                    cv2.putText(frame, "Enhanced: Look directly at camera", (10, frame.shape[0] - 60), 
+./core/Assistant.py:        """Take photo with camera"""
+./core/Assistant.py:            camera = cv2.VideoCapture(0)
+./core/Assistant.py:            if not camera.isOpened():
+./core/Assistant.py:            ret, frame = camera.read()
+./core/Assistant.py:            camera.release()

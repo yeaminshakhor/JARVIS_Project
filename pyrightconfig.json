@@ -1,0 +1,6 @@
+{
+  "typeCheckingMode": "off",
+  "reportUndefinedVariable": "none",
+  "reportMissingImports": "warning",
+  "reportMissingModuleSource": "warning"
+}

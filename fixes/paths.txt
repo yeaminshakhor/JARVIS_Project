@@ -1,0 +1,29 @@
+./Main.py:    "Data/cache",
+./Main.py:    "Data/logs",
+./Main.py:    "Data/auth",
+./Main.py:    "Data/conversations",
+./Main.py:    "Frontend/Files",
+./Main.py:    "Frontend/Graphics",
+./Main.py:    "Frontend/Media",
+./.venv/lib64/python3.13/site-packages/pygments/lexers/graphics.py:            # <http://www.math.ubc.ca/~cass/graphics/manual/pdf/a1.pdf>
+./.venv/lib64/python3.13/site-packages/pydantic/networks.py:            [`email-validator`](https://github.com/JoshData/python-email-validator) package:
+./.venv/lib64/python3.13/site-packages/pydantic/networks.py:        [`email-validator`](https://github.com/JoshData/python-email-validator) package:
+./.venv/lib64/python3.13/site-packages/PIL/SgiImagePlugin.py:# <ftp://ftp.sgi.com/graphics/SGIIMAGESPEC>
+./.venv/lib64/python3.13/site-packages/setuptools/command/editable_wheel.py:        - Data/header/script files are not part of the "editable" specification
+./.venv/lib/python3.13/site-packages/pygments/lexers/graphics.py:            # <http://www.math.ubc.ca/~cass/graphics/manual/pdf/a1.pdf>
+./.venv/lib/python3.13/site-packages/pydantic/networks.py:            [`email-validator`](https://github.com/JoshData/python-email-validator) package:
+./.venv/lib/python3.13/site-packages/pydantic/networks.py:        [`email-validator`](https://github.com/JoshData/python-email-validator) package:
+./.venv/lib/python3.13/site-packages/PIL/SgiImagePlugin.py:# <ftp://ftp.sgi.com/graphics/SGIIMAGESPEC>
+./.venv/lib/python3.13/site-packages/setuptools/command/editable_wheel.py:        - Data/header/script files are not part of the "editable" specification
+./core/auth.py:        self.admin_face_data_file = "Data/auth/admin_face.pkl"
+./core/auth.py:        self.admin_pin_file = "Data/auth/admin_pin.sha256"
+./core/auth.py:        self.setup_complete_file = "Data/auth/setup_done.flag"
+./core/auth.py:        os.makedirs("Data/auth", exist_ok=True)
+./core/auth.py:            filename='Data/auth/enhanced_security.log',
+./core/Assistant.py:                logging.FileHandler('Data/logs/automation.log'),
+./core/utils.py:    def __init__(self, cache_dir: str = "Data/cache", ttl_seconds: int = 3600):
+./core/utils.py:    def __init__(self, history_file: str = "Data/conversations/command_history.json"):
+./core/model.py:cache = EnhancedCache("Data/model_cache")
+./core/search.py:cache = EnhancedCache("Data/search_cache")
+./core/search.py:    metrics_file = "Data/search_metrics.json"
+./core/search.py:    metrics_file = "Data/search_metrics.json"
